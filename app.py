@@ -28,4 +28,4 @@ class InternalSalaryAPI(Resource):
 api.add_resource(InternalSalaryAPI,'/salary_testing')
 
 if __name__=='__main__':
-    app.run()
+    app.run(port=5000,host=0.0.0.0)
